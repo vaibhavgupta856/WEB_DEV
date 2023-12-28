@@ -1,0 +1,51 @@
+body{
+    background-image: url('https://img.freepik.com/free-photo/grunge-black-concrete-textured-background_53876-124541.jpg?size=626&ext=jpg');
+}
+h1.h1{color: rgba(255, 255, 255, 0.841); text-align: center;}
+h2.h1{color:rgb(165, 70, 71); text-align: center;}
+
+img{
+    margin: 40px 40px 5px 40px; border-color: antiquewhite; border-style: solid;
+}
+.white{
+color: azure; margin: none;
+}
+.yellow{color: yellow; text-align: center;}
+#animated-image:hover {
+    width: 255px;
+    height: px;
+    margin: px;
+    border: cap solid #3498db;
+    border-radius: px;
+    overflow: hidden;
+    animation: scaleAnimation 2s ease-in-out infinite;
+}
+
+@keyframes scaleAnimation {
+    0%, 100% {
+        transform: scale(1);
+    }
+    50% {
+        transform: scale(1.1);
+    }
+}
+#gif-image {
+    position: fixed;
+    border: none;
+    object-fit: cover;
+    opacity: 0.15;
+    z-index: -1;
+    margin: none;
+}
+#text-above-image {
+    position: absolute;
+    
+    top: 10%;
+    left: 20%;
+    transform: translate(-50%, -50%);
+    color: #fff;
+    /* text-align: center; */
+    font-size: 22px;
+    font-weight: bold;
+    text-shadow:10px 4px 8px rgba(0, 0, 0, 0.8);
+}
